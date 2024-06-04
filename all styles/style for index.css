@@ -1,0 +1,13 @@
+div{
+    background-color: lightblue ;
+    padding: 20px;
+    margin-bottom: 10px;
+   
+    
+}
+.tihan{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    
+}

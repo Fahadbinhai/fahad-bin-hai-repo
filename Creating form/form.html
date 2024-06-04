@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Login</title>
+    <style>
+       label{
+        display: block;
+        text-align: left;
+        margin-bottom: 10px;
+       }
+       .tihan{
+        width: 100px;
+       }
+       .ti{
+        margin-top: 10px;
+       }
+       .tip{
+        margin-top: 5px;
+       }
+       .head{
+        text-transform: uppercase;
+        background-color: lightskyblue;
+        text-align: center;
+       }
+       .main{
+        background-color:lightskyblue;
+       }
+       .footer{
+        background-color: lightskyblue;
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <h3>Hero Motorcycle Win Competition</h3>
+        <h6>Hero Bangladesh</h6>
+    </header>
+    
+    <main class="main">
+
+        <section>
+            <h5>Please fillup the from bellow</h5>
+        </section>
+        <form >
+            <label for="name">Your Name :
+                <input type="text" name="name" id="name" placeholder="Enter Your name">
+            </label>
+            <label for="email">Your E-mail :
+                <input type="email" name="email" id="email" placeholder="Enter your mail">
+            </label>
+            <label for="number">Contact number:
+                <input type="text" name="number" id="number" placeholder="Enter contact nunbre">
+            </label>
+            <fieldset class="tihan">
+                <legend>Enter your full address</legend>
+                <label for="text">
+                    <textarea name="Address" id="address" cols="30" rows="10"></textarea>
+                </label>
+            </fieldset>
+            
+            <fieldset>
+            
+            <label for="bike">   
+            <legend class="ti">Pick one Motorcycle</legend>
+            <input type="radio" name="bike" id="hero1">Hero R12
+            </label> 
+            <label for="bike">
+                <input type="radio" name="bike" id="hero2">Hero R15
+            </label>
+            <label for="bike">
+                <input type="radio" name="bike" id="bike3">Hero R15 (version 1)
+            </label>
+            <label for="bike">
+                <input type="radio" name="bike" id="bike4">Hero R15 (version 2)
+            </label>
+            <label for="bike">
+                <input type="radio" name="bike" id="bike5">Hero R15 (version 2 modify)
+            </label>
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick a date</legend>
+            <label for="date">
+                <input type="radio" name="july" id="1st date"> 02/07/2024
+            </label>
+            <label for="date">
+                <input type="radio" name="july" id="2nd date"> 05/07/2024
+            </label>
+            <label for="date">
+                <input type="radio" name="july" id="3rd date"> 12/07/2024
+            </label>
+
+        </fieldset>
+        <div class="tip">
+        <input type="reset" value="Reset">
+        <input type="submit" value="submit">
+        </div>
+        
+        </form>
+
+
+    </main>
+    <footer class="footer">
+        <p>All power will be reserved in the hand of Hero Bangladesh</p>
+        <p>Under copyright laws</p>
+    </footer>
+</body>
+</html>
